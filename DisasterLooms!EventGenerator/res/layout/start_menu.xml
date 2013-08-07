@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_menu"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".EventView" >
+
+    <Button
+        android:id="@+id/bRandomEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/main_random_event"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/bAllEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/main_all_events"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/bScoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/main_scoring"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/main_settings"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvAppVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="@string/app_version"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#CDCDCD" />
+
+</LinearLayout>

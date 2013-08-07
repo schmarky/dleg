@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.schmarky.dleg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_shortname"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name="de.schmarky.dleg.StartMenu"
+            android:label="@string/app_shortname"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.schmarky.dleg.EventView"
+            android:label="@string/app_shortname"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="de.schmarky.dleg.EVENTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.schmarky.dleg.MyList"
+            android:label="@string/app_shortname"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="de.schmarky.dleg.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.schmarky.dleg.Scoring"
+            android:label="@string/app_shortname"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="de.schmarky.dleg.SCORING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

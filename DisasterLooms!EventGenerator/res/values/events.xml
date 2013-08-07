@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_2013_01">SUCCESSFUL LAUNCH!</string>
+    <string name="name_2013_02">PRICE FIXING</string>
+    <string name="name_2013_03">THE AURORA PROJECT</string>
+    <string name="name_2013_04">CUDDLY CRITTERS</string>
+    <string name="name_2013_05">METEOR SWARM</string>
+    <string name="name_2013_06">STELLAR IGNITION</string>
+    <string name="name_2013_07">ANTI-MONOPOLY SETTLEMENT</string>
+    <string name="name_2013_08">OCCUPIED WORLD</string>
+
+    <string name="content_2013_01">During the next Management Phase, all newly purchased ships may immediately take one action at normal cost. Continue exploring.</string>
+    <string name="content_2013_02">During the next Revenue Phase, all players receive Profit as though all private technologies were Public Knowledge. Continue exploring.</string>
+    <string name="content_2013_03">Place this tile in the Galaxy Map. All Players may drop off up to two Customers each on this tile, placing them under a Corporation token. During every Revenue Phase, players will receive 1 Resource for each Customer they have dropped off on this tile. Do not continue exploring.</string>
+    <string name="content_2013_04">Planets with the Xeno-domestication icon produce one additional Asset during the next Revenue Phase. Continue exploring. </string>
+    <string name="content_2013_05">Asteroid fields are impassible until the end of the next Fleet Phase. Continue exploring.</string>
+    <string name="content_2013_06">Choose an unoccupied Gas Giant tile on the Galaxy Map and remove it from play. Continue exploring. </string>
+    <string name="content_2013_07">Warp Gate Technology, Hostile Takeover, and Mass Containment must all immediately be sold to Earth. If a player must sell a technology in this way, they receive double Resources for it. Continue exploring.</string>
+    <string name="content_2013_08">Place this tile in the Galaxy Map. All Players may drop off up to two Customers each on this tile, placing them under a Corporation token. During every Revenue Phase, players will receive 1 Resource for each Customer they have dropped off on this tile. Do not continue exploring.</string>
+    
+</resources>
